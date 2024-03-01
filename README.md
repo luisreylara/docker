@@ -44,10 +44,32 @@ docker container stop <id>
 ```
 >detiene el contenedor <id> ejecutandose
 
+
 ```
-docker container start <id>
+docker image ls -aq
 ```
->inicia el contenedor <id> detenedo
+>muestra los id's de las imágenes descargadas
+
+
+```
+docker image rm -f $(docker image ls -aq)
+```
+>elimina todas las imagenes descargadas
+
+```
+docker container ls -aq
+```
+>muestra los ID's de todos los contenedores descargados
+
+```
+docket container rm -f $(docker container ls -aq)
+```
+>elimina todos los contenedores descargados
+
+
+
+
+
 
 ## Comandos de Linux
 ```
