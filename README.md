@@ -49,3 +49,9 @@ docker container start <id>
 ```
 >inicia el contenedor <id> detenedo
 
+## Comandos de Linux
+```
+cat /etc/os-release
+```
+>muestra detalles del sistema operativo en el contenedor
+
