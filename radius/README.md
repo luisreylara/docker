@@ -1,79 +1,29 @@
 # docker
 All about my docker projects
+>Algunos links interesantes
+>
 
-```
-docker ps
-```
->muestra los contenedores ejecutandose
+## RADIUS
+## PORTAL CAUTIVO
 
-```
-docker ps -a
-```
->muestra los contenedores instalados
+>Servidor RADIUS con Debian, FreeRADIUS y MySQL
+https://echaleunvistazo.wordpress.com/2012/08/13/servidor-radius-con-debian-freeradius-y-mysql/
 
-```
-docker stop <id>
-```
->detiene el <id> del contenedor ejecutandose (docker ps)
+>Instalación y configuración de FreeRADIUS Server - Debian Jessie 8.4
+https://www.youtube.com/watch?v=DmSlCZyyFtY
 
+>FreeRADIUS MPSK On Raspberry Pi
+https://www.youtube.com/watch?v=84WY1HF-NFI
 
-```
-docker start <id>
-```
->inicia el contenedor que previamente se ha descargado (docker ps -a)
+>Install FreeRADIUS on Ubuntu 22.04 in Under 10 Minutes!
+https://www.youtube.com/watch?v=3bvdL3uWHkE
+https://docs.beamnetworks.dev/en/linux/networking/freeradius-install
 
+>Servidor radius, freeradius con base de datos. Utilizando Ubuntu, daloradius y mariadb mysql.
+https://www.youtube.com/watch?v=rNxHRyCDGQw
 
-```
-docker run ubuntu
-```
->descarga la imagen y monta el contenedor UBUNTU
-
-```
-docker run -it ubuntu 
-```
->descarga la imagen y monta el contenedor y muestra el prompt de UBUNTU
-
-```
-docker exec -it <id> bash
-```
->el contenedor YA debe de existir y con esta instruccion entra a la SHELL del contenedor
+>FreeRADIUS 3.0 Install On Ubuntu 22.04 And UniFi Radius Profile Setup
+https://www.youtube.com/watch?v=UPUAtoIsnIY
 
 
-```
-docker container stop <id>
-```
->detiene el contenedor <id> ejecutandose
-
-
-```
-docker image ls -aq
-```
->muestra los id's de las imágenes descargadas
-
-
-```
-docker image rm -f $(docker image ls -aq)
-```
->elimina todas las imagenes descargadas
-
-```
-docker container ls -aq
-```
->muestra los ID's de todos los contenedores descargados
-
-```
-docker container rm -f $(docker container ls -aq)
-```
->elimina todos los contenedores descargados
-
-
-
-
-
-
-## Comandos de Linux
-```
-cat /etc/os-release
-```
->muestra detalles del sistema operativo en el contenedor
 
