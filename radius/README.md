@@ -25,5 +25,6 @@ https://www.youtube.com/watch?v=rNxHRyCDGQw
 >FreeRADIUS 3.0 Install On Ubuntu 22.04 And UniFi Radius Profile Setup
 https://www.youtube.com/watch?v=UPUAtoIsnIY
 
-
+>FreeRADIUS Docker Container
+>https://github.com/2stacks/docker-freeradius
 
