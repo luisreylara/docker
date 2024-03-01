@@ -62,7 +62,7 @@ docker container ls -aq
 >muestra los ID's de todos los contenedores descargados
 
 ```
-docket container rm -f $(docker container ls -aq)
+docker container rm -f $(docker container ls -aq)
 ```
 >elimina todos los contenedores descargados
 
