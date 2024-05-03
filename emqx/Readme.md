@@ -44,6 +44,17 @@ services:
       - vol-emqx-log:/opt/emqx/log
 ```
 
+```
+docker container ls -a
+
+docker volume ls
+docker volume ls -q
+
+docker image ls
+docker image ls -a
+```
+
+
 ### comando para reiniciar
 
 ```
