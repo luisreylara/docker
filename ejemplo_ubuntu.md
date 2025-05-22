@@ -11,7 +11,7 @@
   docker ps -a
 ```
 
-### Otra forma de ejecutar ubuntu
+### Otra forma de ejecutar ubuntu sin -rm
 ```
 docker run -it --rm --name myubuntu -d ubuntu
 docker ps
