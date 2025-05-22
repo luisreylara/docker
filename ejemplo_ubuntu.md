@@ -11,7 +11,7 @@
   docker ps -a
 ```
 
-### Otra forma de ejecutar ubuntu sin -rm
+### Otra forma de ejecutar ubuntu 
 ```
 docker run -it --rm --name myubuntu -d ubuntu
 docker ps
@@ -24,7 +24,7 @@ docker ps
 ```
 docker run -it --rm --name myubuntu ubuntu
 ```
-### Otra forma de ejecutar ubuntu
+### Otra forma de ejecutar ubuntu sin -rm
 ```
 docker run -it --name mycontainer ubuntu 
 # exit
