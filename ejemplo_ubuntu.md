@@ -10,3 +10,13 @@
 ```
   docker ps -a
 ```
+
+### Otra forma de ejecutar ubuntu
+```
+docker run -it --rm --name myubuntu -d ubuntu
+docker ps
+docker exec -it myubuntu bash
+# exit
+docker stop myubuntu
+docker ps
+```
