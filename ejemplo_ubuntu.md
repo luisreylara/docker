@@ -20,3 +20,7 @@ docker exec -it myubuntu bash
 docker stop myubuntu
 docker ps
 ```
+### Otra forma de ejecutar ubuntu
+```
+docker run -it --rm --name mycontainer ubuntu
+```
