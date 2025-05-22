@@ -24,3 +24,16 @@ docker ps
 ```
 docker run -it --rm --name myubuntu ubuntu
 ```
+### Otra forma de ejecutar ubuntu
+```
+docker run -it --name mycontainer ubuntu 
+# exit
+docker ps -a
+docker stop mycontainer
+docker start mycontainer
+docker ps -a
+docker exec -it mycontainer bash
+# exit
+docker stop mycontainer
+docker exec -it mycontainer bash
+```
