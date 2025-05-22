@@ -37,3 +37,9 @@ docker exec -it mycontainer bash
 docker stop mycontainer
 docker exec -it mycontainer bash
 ```
+### borrar un contenedor que está detenido
+```
+docker ps -a
+docker rm mycontainer -f
+docker ps -a
+```
