@@ -1,15 +1,12 @@
-# docker
-All about my docker projects
-
+* Visualiza los contenedores descargados
 ```
 docker ps
 ```
->muestra los contenedores ejecutandose
-
+* Muestra los contenedores ejecutandose
 ```
 docker ps -a
 ```
->muestra los contenedores instalados
+* Muestra los contenedores instalados
 
 ```
 docker stop <id>
