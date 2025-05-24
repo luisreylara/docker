@@ -18,17 +18,22 @@ docker container --help
 docker container ls -a
 docker ps -a 
 ```
-# Borrar contenedores mediante ID
+# Borrar contenedores
 ```
 docker container rm ID
+docker container rm ID ID
+docker container prune
 ```
-# 
+# Imagenes
 ```
-docker run -it ubuntu bash
+docker image --help
 ```
-# 
+# Listar imagen
 ```
+docker image ls
 ```
-# 
+# Borrar imagen
 ```
+docker image rm ID
+docker image prune
 ```
