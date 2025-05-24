@@ -26,3 +26,9 @@ docker container run -d -p 8080:80 docker/getting-started
 docker container run -dp 8080:80 docker/getting-started
 ```
 ## Abrir un navegador en localhost:8080
+
+## Start & Stop el contenedor
+```
+docker container stop ID
+docker container start ID
+```
