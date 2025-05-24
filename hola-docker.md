@@ -6,7 +6,8 @@ docker ps -a
 docker pull hello-world
 docker ps -a
 ```
-[Docker HUB](https://hub.docker.com/)
+* [Docker HUB](https://hub.docker.com/)
+* [hello-world Docker HUB](https://hub.docker.com/_/hello-world)
 
 # Otro ejemplo 
 ```
