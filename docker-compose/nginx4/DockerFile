@@ -1,0 +1,6 @@
+FROM nginx:alpine
+
+ARG MiArgumento="un argumento desde DockerFile"
+
+RUN echo $MyVariable
+RUN echo "Hola soy ${MiArgumento}"
