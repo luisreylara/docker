@@ -10,4 +10,12 @@
 ```
 docker-compose up -d --build
 ```
-## Modificar el archivo html.index y ver los cambios inmediatamente.
+
+>[!NOTE]
+>
+> * Cuando modifiquemos solamente docker-compose.yml, entonces ejecutar **docker-compose up -d**
+>> * Cuando modifiquemos solamente DockerFile, entonces ejecutar **docker-compose up -d --build**
+
+>[!TIP]
+>
+>Modificar el archivo index.html y los cambios se reflejan en automático.
