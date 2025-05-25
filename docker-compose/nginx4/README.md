@@ -1,4 +1,4 @@
-## Esta práctica usaremos arguemtos y volúmenes
+## Esta práctica usaremos argumentos y volúmenes
 ----
 
 ## Para esta practica agregar los tres archivos
