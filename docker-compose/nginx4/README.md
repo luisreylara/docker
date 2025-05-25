@@ -1,4 +1,4 @@
-## Esta práctica meteremos el una variable y su contenido dentro del contenedor 
+## Esta práctica usaremos arguemtos y volúmenes
 ----
 
 ## Para esta practica agregar los tres archivos
