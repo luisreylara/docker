@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+    nginx:
+        build:
+            context: .
+            dockerfile: DockerFile
+        container_name: nginx_mio
+        restart: always
+        environment:
+            MyVariable: "este es un mensaje de la variable"
+        ports:
+            - 8080:80
