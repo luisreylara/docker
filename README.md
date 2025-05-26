@@ -1,5 +1,6 @@
 
 ![docker_vs_virtualizacion](https://github.com/user-attachments/assets/51f1b8b5-8d68-4790-ae3c-db89324f4f65)
+> [Docker vs Virtulizacion](https://github.com/luisreylara/docker/blob/main/docker_vs_virtualizacion.PNG)
 
 * Visualiza los contenedores descargados
 ```
