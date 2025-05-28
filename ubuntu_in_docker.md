@@ -2,6 +2,10 @@
 ```
   docker run -it --rm ubuntu
 ```
+### Como preguntar a linux la versión que se está ejecutando 
+```
+cat /etc/os-release
+```
 ### confirmar que se esta ejecutando el contenedor
 ```
   docker ps
