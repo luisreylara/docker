@@ -5,7 +5,7 @@ services:
     image: mysql:8.1
     container_name: mysql_luis
     volumes:
-      - mysql_volume:/var/lib/mysql
+      - ./mysql-data:/var/lib/mysql
     ports:
       - 3306:3306
     restart: always
@@ -16,5 +16,3 @@ services:
       MYSQL_DATABASE: luis_db
     # (this is just an example, not intended to be a production configuration)
 
-volumes:
-  mysql_volume:
