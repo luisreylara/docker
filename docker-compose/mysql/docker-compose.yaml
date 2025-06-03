@@ -1,0 +1,20 @@
+version : '3'
+services:
+
+  mysql:
+    image: mysql:8.1
+    container_name: mysql_luis
+    volumes:
+      - mysql_volume:/var/lib/mysql
+    ports:
+      - 3306:3306
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: 2025
+      MYSQL_USER: luis
+      MYSQL_PASSWORD: 1234
+      MYSQL_DATABASE: luis_db
+    # (this is just an example, not intended to be a production configuration)
+
+volumes:
+  mysql_volume:
