@@ -15,6 +15,7 @@ docker container ls -aq
 docker image ls -q
 ```
 ## Borrar todos los contenedores, y le pasamos el ID
+```
 docker container rm -f $(docker container ls -aq)
 ```
 ## Borrar todas imagenes, pero le pasamos el ID de cada una que existen
