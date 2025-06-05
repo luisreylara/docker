@@ -1,3 +1,5 @@
+# Esto funciona en PowerShell, linux, Mac
+-----
 ## Mostrar todos los contenedores
 ```
 docker container ls -a
