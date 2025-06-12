@@ -1,0 +1,20 @@
+services:
+  Web:
+    image: my-web-app
+    ports:
+      - "80:80"
+    networks:
+      - front-end
+  api:
+    image: my-api
+    networks:
+      - back-end
+      - front-end
+  database:
+    image: my-db
+    networks:
+      - back-end
+
+networks:
+  front-end:
+  back-end:
