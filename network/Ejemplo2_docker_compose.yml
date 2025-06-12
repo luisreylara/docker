@@ -1,0 +1,18 @@
+services:
+  web:
+    image: nginx
+    networks:
+      - frontend
+  app:
+    image: myapp
+    networks:
+      - frontend
+      - backend
+  db:
+    image: postgres
+    networks:
+      - backend
+
+networks:
+  frontend:
+  backend:
