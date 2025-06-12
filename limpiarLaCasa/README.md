@@ -24,3 +24,7 @@ docker container rm -f $(docker container ls -aq)
 ```
 docker image rm -f $(docker image ls -q)
 ```
+## Borrar todas las REDES, pero le pasamos el ID de cada una que existen
+```
+docker network rm  $(docker network ls -q)
+```
